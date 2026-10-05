@@ -43,3 +43,10 @@ string and use the leet form only for display.
 
 `a→4`, `b→8`, `e→3`, `g→6`, `l→1`, `o→0`, `s→5`, `t→7`, `z→2`. Every other
 character passes through unchanged in both directions.
+
+## Performance
+
+The window keeps a bounded buffer, so `push` is constant time and memory does not
+grow with the length of the stream. `peak` and `trough` are linear in the window
+size, which is the trade that keeps `push` cheap.
+
