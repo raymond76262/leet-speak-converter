@@ -1,6 +1,6 @@
 {
   "name": "leet-speak-converter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Translates text into and out of leetspeak by applying character-level symbol substitution rules.",
   "type": "module",
   "main": "src/index.js",
